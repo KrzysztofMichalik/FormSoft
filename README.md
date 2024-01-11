@@ -1,4 +1,4 @@
-Aplikacja typu CRUD do zarządzania fakturami.
+Aplikacja do zarządzania fakturami.
 
 ## Uruchomienie:
 1. Pobierz repozytorium
@@ -10,3 +10,6 @@ Aplikacja typu CRUD do zarządzania fakturami.
     - `php artisan db:seed --class=InvoiceTableSeeder`
 4. Aplikacja jest gotowa do użycia pod adresem http://localhost:8080
 
+## Uwaga:
+W razie potrzeby zmiany uprawnień w katalogach, należy nadać uprawnienia zapisu do odpowiedniego katalogu, bądź z uwagi na fakt, że jest to środowisko lokalne można zmienić uprawnienia rekurencyjnie dla calej zawartości katalogu html poleceniem 
+chmod 775 -R html w kontenerze formsoft-php-1.
